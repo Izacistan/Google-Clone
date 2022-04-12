@@ -7,54 +7,64 @@
     <link rel="stylesheet" href="normalize.css">
     <title>Google</title>
   </head>
+
   <body>
 
-    <header id="top-navigation-bar">
-      <ul class="top-list">
-        <li class="nav-item"><a href="#">About</a></li>
-        <li class="nav-item"><a href="#">Store</a></li>
-        <li class="nav-item"><a href="#">Images</a></li>
-        <li class="nav-item"><a href="#">Gmail</a></li>
-      </ul>
+    <div id="primary-flex-container">
 
-      <div class="apps-login-container">
-        <svg class="app-svg" focusable="false" viewBox="0 0 24 24">
-          <path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path>
-        </svg>
-        <button class="login-btn" type="button" name="login">Sign in</button>
+      <header id="top-navigation-bar">
+        <ul class="top-list top-list-1">
+          <li class="nav-item"><a href="#">About</a></li>
+          <li class="nav-item"><a href="#">Store</a></li>
+        </ul>
+
+        <div class="apps-login-container">
+          <a class="nav-item" href="#">Images</a>
+          <a class="nav-item" href="#">Gmail</a>
+          <svg class="nav-item app-svg" focusable="false" viewBox="0 0 24 24">
+            <path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path>
+          </svg>
+          <button class="login-btn" type="button" name="login">Sign in</button>
+        </div>
+      </header>
+
+      <div class="logo-container">
+        <img class="google-logo" src="img/google_logo_white.png" alt="Google logo">
       </div>
 
-    </header>
+      <div class="search-container">
+        <input class="search-bar" type="text" name="search">
+        <div class="search-btn-container">
+          <button class="search-btn" type="button" name="search-btn">Search</button>
+          <button type="button" name="lucky-btn">I'm Feeling Lucky</button>
+        </div>
+      </div>
 
-    <img class="google-logo" src="img/google_logo_white.png" alt="Google logo">
+      <div class="spacer">
 
-    <input class="search-bar" type="text" name="search">
+      </div>
 
-    <div class="search-btn-container">
-      <button class="search-btn" type="button" name="search-btn">Search</button>
-      <button type="button" name="lucky-btn">I'm Feeling Lucky</button>
+      <footer id="bottom-navigation-bar">
+
+        <div class="carbon-neutral-container">
+          <img src="img/carbon_neutral_leaf.png" alt="A small icon of a green leaf">
+          <h3 class="carbon-header">Carbon neutral since 2007</h3>
+        </div>
+
+        <div class="">
+          <ul>
+            <li class="nav-item"><a href="#">Advertising</a></li>
+            <li class="nav-item"><a href="#">Business</a></li>
+            <li class="nav-item"><a href="#">How Search works</a></li>
+          </ul>
+
+          <ul>
+            <li class="nav-item"><a href="#">Privacy</a></li>
+            <li class="nav-item"><a href="#">Terms</a></li>
+            <li class="nav-item"><a href="#">Settings</a></li>
+          </ul>
+        </div>
+      </footer>
     </div>
-    <footer id="bottom-navigation-bar">
-
-      <div class="carbon-neutral-container">
-        <img src="img/carbon_neutral_leaf.png" alt="A small icon of a green leaf">
-        <h3 class="carbon-header">Carbon neutral since 2007</h3>
-      </div>
-
-      <div class="">
-        <ul>
-          <li class="nav-item"><a href="#">Advertising</a></li>
-          <li class="nav-item"><a href="#">Business</a></li>
-          <li class="nav-item"><a href="#">How Search works</a></li>
-        </ul>
-
-        <ul>
-          <li class="nav-item"><a href="#">Privacy</a></li>
-          <li class="nav-item"><a href="#">Terms</a></li>
-          <li class="nav-item"><a href="#">Settings</a></li>
-        </ul>
-      </div>
-    </footer>
-
   </body>
 </html>

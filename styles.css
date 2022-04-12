@@ -1,5 +1,12 @@
 body {
   background-color: #202124;
+  font-family: arial, sans-serif;
+}
+
+#primary-flex-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 #bottom-navigation-bar {
@@ -37,6 +44,7 @@ HEADER STYLES
 
 .login-btn {
   height: 30px;
+  margin-right: 10px;
 }
 
 /************
@@ -45,7 +53,7 @@ LOGO STYLES
 
 .google-logo {
   display: block;
-  margin: auto;
+  margin: 40px auto 25px auto;
   width: 70%;
 }
 
@@ -55,7 +63,7 @@ Search Bar
 
 .search-bar {
   display: block;
-  margin: auto;
+  margin: auto auto 25px;
   width: 80%;
   height: 40px;
   border-radius: 30px;
@@ -68,4 +76,8 @@ Search Bar
 
 .search-btn {
   margin-right: 10px;
+}
+
+.spacer {
+  flex-grow: 1;
 }
