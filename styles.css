@@ -19,17 +19,29 @@ HEADER STYLES
 
 #top-navigation-bar {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: space-around;
+  padding: 9px;
 }
 
 .top-list {
   display: flex;
   list-style: none;
-  padding-left: 0px;
 }
 
 .nav-item {
-  padding-right: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.top-nav-item {
+  color: white;
+}
+
+.top-nav-item:hover {
+  color: white;
+  text-decoration: underline;
 }
 
 .apps-login-container {
@@ -44,7 +56,6 @@ HEADER STYLES
 
 .login-btn {
   height: 30px;
-  margin-right: 10px;
 }
 
 /************
