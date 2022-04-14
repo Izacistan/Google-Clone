@@ -3,6 +3,13 @@ body {
   font-family: arial, sans-serif;
 }
 
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
 #primary-flex-container {
   display: flex;
   flex-direction: column;
@@ -79,14 +86,17 @@ Search Bar
 .search-bar {
   display: block;
   margin: auto auto 25px;
+  padding-left: 10px;
+  padding-right: 10px;
   width: 80%;
   height: 40px;
+  border: solid gray 1px;
   border-radius: 30px;
   background-color: #202124;
 }
 
-.search-bar:clicked {
-  background-color: pink;
+.search-bar:focus {
+  background-color: #303134;
 }
 
 .search-btn-container {
