@@ -44,6 +44,7 @@ HEADER STYLES
 
 .top-nav-item {
   color: white;
+  font-size: 0.8rem;
 }
 
 .top-nav-item:hover {
@@ -57,22 +58,34 @@ HEADER STYLES
 }
 
 .app-svg {
-  height: 40px;
+  height: 30px;
   filter: invert(89%) sepia(0%) saturate(19%) hue-rotate(294deg) brightness(93%) contrast(95%);
+  padding-right: 10px;
 }
 
 .login-btn {
   height: 30px;
+  cursor: pointer;
 }
 
 /************
 LOGO STYLES
  ***********/
 
+.logo-container {
+  max-height: 150px;
+  margin: auto;
+}
+
 .google-logo {
   display: block;
-  margin: 40px auto 0px auto;
+  margin: auto;
   width: 70%;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: center bottom;
+  width: auto;
 }
 
 /************
@@ -89,10 +102,12 @@ Search Bar
   padding-left: 10px;
   padding-right: 10px;
   width: 80%;
+  max-width: 584px;
   height: 40px;
   border: solid gray 1px;
   border-radius: 30px;
   background-color: #202124;
+
 }
 
 .search-bar:focus {
