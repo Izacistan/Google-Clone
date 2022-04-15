@@ -134,6 +134,20 @@ Search Bar
   margin-right: 10px;
 }
 
+.prime-btn {
+  cursor: pointer;
+  background-color: #303134;
+  border: solid #303134 1px;
+  border-radius: 5px;
+  padding: 9px;
+  color: #e8eaed;
+  font-size: 0.9rem;
+}
+
+.prime-btn:hover {
+  border-color: lightgray;
+}
+
 .spacer {
   flex-grow: 1;
 }
