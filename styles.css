@@ -27,8 +27,8 @@ HEADER STYLES
 #top-navigation-bar {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  padding: 9px;
+  justify-content: space-between;
+  padding: 15px;
 }
 
 .top-list {
@@ -74,7 +74,8 @@ LOGO STYLES
 
 .logo-container {
   max-height: 150px;
-  margin: auto;
+  width: 286px;
+  margin: 50px auto auto;
 }
 
 .google-logo {
