@@ -66,6 +66,16 @@ HEADER STYLES
 .login-btn {
   height: 30px;
   cursor: pointer;
+  padding: 7px;
+  border-radius: 3px;
+  border: solid #5F6368 1px;
+  background-color: #5F6368;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.login-btn:hover {
+  border: solid 1px lightgray;
 }
 
 /************
