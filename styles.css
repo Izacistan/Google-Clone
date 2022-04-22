@@ -184,7 +184,7 @@ a.btm-nav-item {
 
 .info-container-1 {
   order: 1;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .info-container-2 {
@@ -196,6 +196,7 @@ a.btm-nav-item {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
   font-size: 0.7rem;
   order: 0;
 }
@@ -207,4 +208,33 @@ a.btm-nav-item {
 
 .carbon-header {
   color: #999da2;
+}
+
+
+/************
+Media Queries
+************/
+
+@media only screen and (min-width: 1080px) {
+
+  #bottom-navigation-bar {
+    justify-content: space-between;
+  }
+
+  .carbon-container {
+    width: 30%;
+    order: 1;
+  }
+
+  .info-container-1 {
+    order: 0;
+    padding-left: 15px;
+    width: 30%;
+  }
+
+  .info-container-2 {
+    padding-right: 15px;
+    width: 30%;
+  }
+
 }
